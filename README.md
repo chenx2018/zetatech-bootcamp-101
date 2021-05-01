@@ -18,7 +18,7 @@ ensure everyone be professional with tidy data working flow using the
     英文版。I **strongly recommend** everyone reading the original
     English version!
 
--   上述教材的中文版在已经在微信群中分享。
+-   上述教材的中文版在[这里](textbook_chineseVersion/R4ds_cn.pdf)，同时也已经在微信群中分享。
 
 本书是由 Hadley Wickham
 与他的PhD学生共同创作的。Hadley大神目前是统计界当之无愧的泰山北斗（考普斯奖得主，统计界的菲尔兹奖），是众多数据科学家的
@@ -44,7 +44,7 @@ superhero，当然也是我的！他的书写的通俗易懂，充满趣味。�
     -   这个章节里你学了哪些主要的函数
         functions？举几个使用这些函数的小例子。希望你可以用这些小例子，教会你的小伙伴！
 
-    -   每天把你的读书笔记与大家分享，then we have 1 + 1 ≥ 2
+    -   每天把你的读书笔记与大家分享，一加一大于二不是吗？
 
     -   关于Markdown语法，如果你不熟悉，可以Google或者百度一下，花个10分钟就可以掌握，因为非常非常简单。以后别在纠结你的旧爱Word啦。你可以使用
         **Typora** 软件来编辑`.md`文件，或者直接使用RStudio中的
