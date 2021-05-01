@@ -26,7 +26,17 @@ superhero，当然也是我的！他的书写的通俗易懂，充满趣味。�
 
 ## Study Guide
 
-1.  使用**Markdown**语法来写你的读书笔记，做好整理和总结。例如：
+1.  在这次 boot camp 中，本书学习的重点是：
+
+    -   part I. Explore
+
+    -   part II. Wrangle
+
+    -   大目标：熟练掌握 `dplyr` package
+        来完成数据清理。你将大量使用pipe function, i.e. `%>%` ,
+        所以代码的编写规范也很重要，让大家可以读懂你！
+
+2.  使用**Markdown**语法来写你的读书笔记，做好整理和总结。例如：
 
     -   这个章节讲了主要讲了什么内容？为什么我需要学这个？Note that:
         Motivation is super **important** for us!
@@ -34,10 +44,12 @@ superhero，当然也是我的！他的书写的通俗易懂，充满趣味。�
     -   这个章节里你学了哪些主要的函数
         functions？举几个使用这些函数的小例子。希望你可以用这些小例子，教会你的小伙伴！
 
-    -   关于Markdown语法，大家可以自行学会，因为非常非常简单。以后别在纠结你的旧爱Word啦。你可以使用
-        **Typora** 软件，或者直接使用RStudio中的
+    -   每天把你的读书笔记与大家分享，then we have 1 + 1 ≥ 2
+
+    -   关于Markdown语法，如果你不熟悉，可以Google或者百度一下，花个10分钟就可以掌握，因为非常非常简单。以后别在纠结你的旧爱Word啦。你可以使用
+        **Typora** 软件来编辑`.md`文件，或者直接使用RStudio中的
         **RMarkdown**，当然啦，我希望你们直接用后者 :)
 
     -   [Typora的下载网址](https://typora.io)
 
-2.  做一份cheatsheet。把你学会的整理成一份小抄，不断完善，相信我，这个将对你的工作很有帮助！
+3.  做一份cheatsheet。把你学会的整理成一份小抄，不断完善，相信我，这个将对你的工作很有帮助！
