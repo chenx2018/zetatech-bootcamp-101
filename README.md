@@ -23,3 +23,21 @@ ensure everyone be professional with tidy data working flow using the
 本书是由 Hadley Wickham
 与他的PhD学生共同创作的。Hadley大神目前是统计界当之无愧的泰山北斗（考普斯奖得主，统计界的菲尔兹奖），是众多数据科学家的
 superhero，当然也是我的！他的书写的通俗易懂，充满趣味。书里讲授的方法和技巧都是日常工作中必不可少的，希望大家认真阅读，熟练掌握！
+
+## Study Guide
+
+1.  使用**Markdown**语法来写你的读书笔记，做好整理和总结。例如：
+
+    -   这个章节讲了主要讲了什么内容？为什么我需要学这个？Note that:
+        Motivation is super **important** for us!
+
+    -   这个章节里你学了哪些主要的函数
+        functions？举几个使用这些函数的小例子。希望你可以用这些小例子，教会你的小伙伴！
+
+    -   关于Markdown语法，大家可以自行学会，因为非常非常简单。以后别在纠结你的旧爱Word啦。你可以使用
+        **Typora** 软件，或者直接使用RStudio中的
+        **RMarkdown**，当然啦，我希望你们直接用后者 :)
+
+    -   [Typora的下载网址](https://typora.io)
+
+2.  做一份cheatsheet。把你学会的整理成一份小抄，不断完善，相信我，这个将对你的工作很有帮助！
