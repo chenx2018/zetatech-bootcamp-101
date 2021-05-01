@@ -1,0 +1,21 @@
+---
+output: 
+  github_document:
+    toc: true
+    toc_depth: 2
+editor_options: 
+  chunk_output_type: console
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  eval = FALSE,
+  fig.path = "README-"
+)
+```
+
+# ZetaTech-101: Data Analyst BootCamp
