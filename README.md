@@ -10,7 +10,7 @@ incoming **data analyst** in May 2021. The goal for this tutorial is to
 ensure everyone be professional with tidy data working flow using the
 **tidyverse** packages.
 
-## Textbook
+## 教材 Textbook
 
 <img src="https://bookdown.org/roy_schumacher/r4ds/cover.png" width="35%"/>
 
@@ -24,7 +24,7 @@ ensure everyone be professional with tidy data working flow using the
 与他的PhD学生共同创作的。Hadley大神目前是统计界当之无愧的泰山北斗（考普斯奖得主，统计界的菲尔兹奖），是众多数据科学家的
 superhero，当然也是我的！他的书写的通俗易懂，充满趣味。书里讲授的方法和技巧都是日常工作中必不可少的，希望大家认真阅读，熟练掌握！
 
-## Study Guide
+## 学习指南 Study Guide
 
 1.  在这次 boot camp 中，本书学习的重点是：
 
@@ -53,3 +53,29 @@ superhero，当然也是我的！他的书写的通俗易懂，充满趣味。�
     -   [Typora的下载网址](https://typora.io)
 
 3.  做一份cheatsheet。把你学会的整理成一份小抄，不断完善，相信我，这个将对你的工作很有帮助！
+
+## 参考书籍 Reference Books
+
+1.  [Advanced R](https://adv-r.hadley.nz)
+
+    -   It covers everything from the foundations, including data
+        structures, object oriented programming, and debugging, to
+        functional programming and performance code.
+
+    -   同样是大神 Hadley Wickham
+        的著作，想更深入的了解R编程，可以参考此书。
+
+2.  [R Markdown
+    Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+    -   谢益辉 谢大神的著作，关于 rmarkdown
+        你想要知道的，都可以在本书中找到答案。
+
+3.  [R Graphics Cookbook](https://r-graphics.org)
+
+    -   ggplot2 的入门宝典。
+
+4.  [An Introduction to Statistical
+    Learning](https://www.statlearning.com)
+
+    -   机器学习 入门宝典
