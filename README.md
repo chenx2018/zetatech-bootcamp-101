@@ -1,7 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-![](img/logo_watermark.png)
+<br>
+
+<img src="img/logo_watermark.png" width="40%"/>
 
 # zetatech-bootcamp-101
 
@@ -53,6 +55,28 @@ superhero，当然也是我的！他的书写的通俗易懂，充满趣味。�
     -   [Typora的下载网址](https://typora.io)
 
 3.  做一份cheatsheet。把你学会的整理成一份小抄，不断完善，相信我，这个将对你的工作很有帮助！
+
+## 作业与练习 Assignment & Exercise
+
+1.  设置你的学习里程碑，在什么时间点，完成哪些章节。提交到你所在学习小组的微信群中。
+
+2.  以 markdown 或者 rmarkdown
+    的形式，记录你的学习笔记，及时整理总结，每日在群中提交/分享。
+
+3.  完成作业，自测学习成果。
+
+    -   assignment 1，提交截止时间：2021-05-15
+
+    -   assignment 2，提交截止时间：2021-05-22
+
+    -   assignment 3，提交截止时间：2021-05-29
+
+## 讨论与答疑 Discussion Section
+
+-   将你的问题提交到
+    [Issues](https://github.com/chenx2018/zetatech-bootcamp-101/issues)，这样方便大家讨论与解答。
+
+-   每周的答疑时间：周三 17:00 - 18:00 pm
 
 ## 参考书籍 Reference Books
 
