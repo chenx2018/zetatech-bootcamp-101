@@ -1,0 +1,150 @@
+---
+title: "Tutorial 1"
+date: "2021-05-12"
+author: "zetatech-bootcamp-101"
+output:
+  bookdown::pdf_book: 
+    latex_engine: xelatex
+    extra_dependencies:
+      ctex: UTF8
+    number_sections: yes
+    df_print: kable
+    toc: no
+classoptions: "hyperref, 12pt, a4paper"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r global_options, message=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  fig.pos = "H", include = FALSE,
+  cache = FALSE, autodep = TRUE, cache.comments = FALSE,
+  message = FALSE, warning = FALSE, out.width = "100%",
+  fig.align = "center", fig.showtext = TRUE, fig.show = "hold"
+) 
+```
+
+# Loading package
+
+```{r}
+library(tidyverse)
+```
+
+
+# `%>%` pipe function
+
+```{r}
+add <- function(x, y = 1) {
+  x + y
+}
+
+1 %>% 
+  add()
+
+add(1)
+
+1 %>% 
+  add(y = 2)
+
+add(1, 2)
+```
+
+
+# Example
+
+```{r}
+dat <- tibble(
+  id = 1:100,
+  score = rnorm(n = 100, mean = 80, sd = 40),
+  gender = sample(x = c("男", "女"), size = 100, replace = TRUE)
+)
+
+summary(dat)
+
+dat$score[dat$score > 100] <- 100
+dat$score[dat$score < 0] <- 0
+
+dat <- dat %>% 
+  mutate(
+    score = case_when(
+      score < 0 ~ 0,
+      score > 100 ~ 100,
+      TRUE ~ score
+    )
+  ) 
+```
+
+
+# select
+
+```{r}
+dat %>% 
+  select(1:2)
+
+dat %>% 
+  select(id, score)
+
+dat %>% 
+  select(-c(id, score))
+```
+
+# filter
+
+```{r}
+filter(dat, gender == "女", score > 90)
+
+dat %>%
+  filter(gender == "女", score > 90)
+
+dat %>% 
+  filter(gender == "男", (score > 90 | score < 60)) %>% 
+  ggplot(aes(x = gender, y = score)) +
+  geom_point() +
+  geom_hline(yintercept = c(60, 90), color = "red") +
+  scale_y_continuous(breaks = seq(0, 100, 10)) +
+  theme(text = element_text(family = "STKaiti"))
+```
+
+# mutate
+
+```{r}
+temp <- dat %>% 
+  mutate(name = sample(
+    c("李芳", "唐德利"), 
+    size = 100, 
+    replace = TRUE
+  )) %>% 
+  mutate(bonus = runif(100, 1, 9)) %>% 
+  mutate(total_socre = score + bonus) %>% 
+  mutate(gender = "女")
+```
+
+# arrange
+
+```{r}
+temp %>% 
+  arrange(desc(total_socre))
+```
+
+# group_by and summarize
+
+```{r}
+temp %>% 
+  group_by(name) %>% 
+  summarize(total_total_score = sum(total_socre))
+
+dat2 <- tibble(
+  name = rep(c("李芳", "唐德利"), 5),
+  movie = sample(c("恐怖", "武侠", "动作", "搞笑"), size = 10, replace = TRUE),
+  movie_id = 1:10
+)
+
+dat2 %>% 
+  group_by(name, movie) %>% 
+  summarize(num_movies = n()) %>% 
+  ungroup() %>% 
+  group_by(name) %>% 
+  mutate(pct = paste0(100*num_movies/sum(num_movies), "%")) %>% 
+  ungroup()
+```
+
