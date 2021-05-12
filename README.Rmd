@@ -68,6 +68,8 @@ Hello everyone! Welcome to Zeta Tech BootCamp 101! This tutorial is for incoming
 
     -   assignment 1，提交截止时间：2021-05-15
 
+        -   本次作业主要考核 `dplyr` 基本函数 的使用，请仔细阅读教材中的第三章 Chapter 3
+
     -   assignment 2，提交截止时间：2021-05-22
 
     -   assignment 3，提交截止时间：2021-05-29
